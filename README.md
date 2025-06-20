@@ -1,5 +1,69 @@
-##Basic banking system
-We are students of BCA (Artificial Intelligence & Data Science) and have developed a Basic Banking System using the C programming language. The main goal of our project is to simulate core banking operations through a menu-driven program that is simple, interactive, and user-friendly. The system allows users to: • Create new bank accounts • Deposit and withdraw money • Check account balances • View account details We are implementing file handling to store and retrieve user data, ensuring that account information and transaction history are saved permanently. Account details, such as account number, holder name, account type, balance, and transaction records, are written to files, enabling users to access their data even after the program is closed and reopened. To ensure clarity and maintainability, we follow a modular programming approach by creating separate header files for each major function—such as account creation, transactions, balance checking, and file operations. This enhances code readability, reuse, and debugging. The project can be extended to include features such as: • Loan interest calculation • Transaction history logs • User authentication/login system • Admin vs. user roles • Data export in CSV or other formats Through this project, we aim to deepen our understanding of C programming, file I/O, data structures, and real-world software design. It serves as a foundational step toward building more advanced financial and data-driven applications.
+
+##  Overview
+
+This is a menu-driven C program that simulates a basic banking system with support for account creation, transactions (deposit/withdraw), updates, deletions, and balance inquiries. All data is logged and persisted in text files.
+## Features
+
+Create account (Current/Savings)
+
+Deposit and Withdraw money
+
+Check balance
+
+View and update account details
+
+Delete account
+
+Search for an account
+
+Console + File logging
+
+Date and time tracking for each action
+
+
+## File Structure
+
+.
+├── PBL_FINAL_PHASE.c.c       # Main source code file
+├── accounts.txt              # Stores account data (persistent)
+├── output.txt                # Execution log (append mode)
+├── README.md                 # Project description
+
+##  Requirements
+
+GCC compiler or any C compiler
+
+Standard C library
+
+
+## 🖥️ How to Run
+
+gcc PBL_FINAL_PHASE.c.c -o bank_system
+./bank_system
+
+## 🧑‍💻 Future Improvements
+
+Modularize into multiple .c and .h files
+
+Add user/admin login system
+
+GUI interface using C++/Python
+
+Integration with SQLite for persistent database
+
+
+## 👥 Team Members
+
+
+AISHA FATIMA- 	File & Structure Management; 
+ASHI GUPTA- 	Account Operations;
+PRIYANSHU FARTIYAL-	User/Admin Menu System;
+KARTIK KUMAR-	Final Integration, GitHub, Testing;
+
+
+## 📄 License
+
+This project is for educational use only.
 
 ##Demo
 https://1drv.ms/t/c/654ac426fb8527c2/Edj3mcMJssFAmhn9VyZk4m4BOy9Mz8ADvI1lNqOOzSyg7g?e=2i2mmF
